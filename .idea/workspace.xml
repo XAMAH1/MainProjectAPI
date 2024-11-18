@@ -5,63 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4274ec9-2911-4577-9d00-a314dbbb6b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_access_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_access_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_autme_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_autme_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_device_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_device_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_recording_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_recording_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_role_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_role_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_subscription_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_subscription_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_tokens_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_tokens_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_type_record_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_type_record_model/type_record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_user_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/models/db_user_model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_model/html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md5_hash/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md5_hash/md5_hash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/crud/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/database/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_respounse_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_device.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/crud/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/database/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/model/pd_new_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/register/model/pd_respounse_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/quit_user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/quit_user/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/quit_user/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/quit_user/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/logIn_user/crud/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/crud/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/logIn_user/database/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/database/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/register/crud/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/register/crud/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;XAMAH1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/XAMAH1/MainProjectAPI.git&quot;,
+    &quot;accountId&quot;: &quot;d5091713-6399-403e-b7c5-df287de0a493&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/user/logIn_user/crud/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -90,34 +59,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.md5_hash.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/.PET-PROJECT/MainProjectAPI/user/logIn_user/models&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main (1).executor": "Debug",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
+    "Python.main (5).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.md5_hash.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/.PET-PROJECT/MainProjectAPI/user/logIn_user/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\.PET-PROJECT\MainProjectAPI\user\logIn_user\models" />
@@ -129,7 +100,7 @@
       <recent name="D:\.PET-PROJECT\NoteProjectAPI\database\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NoteProjectAPI" />
       <option name="ENV_FILES" value="" />
@@ -281,8 +252,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -336,6 +306,11 @@
           <url>file://$PROJECT_DIR$/user/logIn_user/database/main.py</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/logIn_user/database/main.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

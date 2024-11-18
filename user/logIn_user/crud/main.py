@@ -44,9 +44,7 @@ async def login_user_system(data_user: model_autme) -> respounse_model:
                 status_code=422,
                 detail="Ошибка авторизации"
             )
-        return respounse_model(
-            token=jwt_token
-        )
+        return respounse_model(token=str(jwt_token))
     raise HTTPException(
         status_code=401,
         detail="Не правильный логин или пароль"

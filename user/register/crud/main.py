@@ -14,7 +14,6 @@ async def registration_new_user_system(data_user: model_new_user) -> failed_resp
     get_password_user = calculate_md5(data_user.password)
     if not await insert_user(data_user, get_user_id, get_password_user):
         raise HTTPException(status_code=400, detail="Возникла ошибка при регистрации, попробуйте еще раз")
-    print(get_user_id)
     return failed_respounse_model(message="Аккаунт успешно создан")
 
 # if __name__ == '__main__':

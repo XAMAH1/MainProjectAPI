@@ -29,6 +29,7 @@ async def insert_user_new_token(
             ip_device=data_user.device.user_ip,
         )
         session.add(new_device_user)
+        await session.commit()
         query = select(DeviceBaseModel).filter(DeviceBaseModel.name == data_user.device.user_device).order_by(DeviceBaseModel.id.desc())
         result = await session.execute(query)
         for current_device in result.scalars():
@@ -42,6 +43,5 @@ async def insert_user_new_token(
             try:
                 await session.commit()
             except Exception as e:
-                logger.warning(e)
                 return False
             return True

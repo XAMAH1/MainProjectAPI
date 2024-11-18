@@ -1,4 +1,6 @@
 import os
+
+import uvicorn
 from dotenv import load_dotenv
 from starlette.responses import HTMLResponse
 from user.view import autohorizen
@@ -19,7 +21,7 @@ async def get_file(path: str = "html_model/html.html"):
 app = FastAPI()
 
 
-app.include_router(autohorizen, tags=["Пользователь"], prefix="/authentication")
+app.include_router(autohorizen, tags=["Пользователь"], prefix=f"/{os.getenv("VERSION")}/user")
 
 
 app.add_middleware(
@@ -34,3 +36,7 @@ app.add_middleware(
 @app.get("/")
 async def html_main_form():
     return HTMLResponse(content= await get_file(), status_code=200)
+
+
+if __name__ == "__main__":
+    uvicorn.run(app)
