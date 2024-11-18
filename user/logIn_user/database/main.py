@@ -1,8 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy.util import await_only
 
-import logger
 from database.main import *
 from ..models import model_autme
 
@@ -10,19 +8,18 @@ from ..models import model_autme
 async def select_user(
         data_user: model_autme,
         hash_password: str
-):
+) -> AutmeBaseModel | None:
     query = select(AutmeBaseModel).filter(AutmeBaseModel.email == data_user.email)
     async with Session() as session:
-        result = await session.execute(query)
+        result: AutmeBaseModel = await session.execute(query)
         return result
-    return None
 
 
 async def insert_user_new_token(
         data_user: model_autme,
         token: str,
         user_id: str
-):
+) -> bool:
     async with Session() as session:
         new_device_user = DeviceBaseModel(
             name=data_user.device.user_device,

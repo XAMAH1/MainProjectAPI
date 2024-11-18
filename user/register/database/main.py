@@ -4,7 +4,7 @@ from database.main import *
 from user.register.model.pd_new_user import model_new_user
 
 
-async def get_mail_user(mail):
+async def get_mail_user(mail) -> bool:
     async with Session() as session:
 
         query: UserBaseModel = await session.execute(select(UserBaseModel).filter(UserBaseModel.email == mail))
@@ -14,7 +14,7 @@ async def get_mail_user(mail):
 
 
 
-async def insert_user(user: model_new_user, user_id, password):
+async def insert_user(user: model_new_user, user_id, password) -> bool:
     async with Session() as session:
         new_user = UserBaseModel(
             nickname= user.nickname,

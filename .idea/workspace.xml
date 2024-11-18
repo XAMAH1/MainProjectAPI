@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4274ec9-2911-4577-9d00-a314dbbb6b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user/quit_user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/quit_user/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/quit_user/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/quit_user/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d4274ec9-2911-4577-9d00-a314dbbb6b56" name="Changes" comment="Исправлена ошибка в авторизации, добавлены комментарии в запросы, убраны лишние переменные">
+      <change afterPath="$PROJECT_DIR$/user/quit_user/model/pd_respounse_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/logIn_user/crud/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/crud/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/logIn_user/database/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/database/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/quit_user/crud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/quit_user/crud/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/quit_user/crud/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/quit_user/crud/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/quit_user/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/quit_user/database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/quit_user/database/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/quit_user/database/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/quit_user/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/quit_user/model/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/register/crud/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/register/crud/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/register/database/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/register/database/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,22 +291,35 @@
       <workItem from="1731588359780" duration="15235000" />
       <workItem from="1731852301486" duration="11613000" />
     </task>
+    <task id="LOCAL-00001" summary="Исправлена ошибка в авторизации, добавлены комментарии в запросы, убраны лишние переменные">
+      <option name="closed" value="true" />
+      <created>1731953220483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731953220483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Исправлена ошибка в авторизации, добавлены комментарии в запросы, убраны лишние переменные" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлена ошибка в авторизации, добавлены комментарии в запросы, убраны лишние переменные" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/logIn_user/database/main.py</url>
-          <line>25</line>
+          <line>22</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/logIn_user/database/main.py</url>
-          <line>29</line>
+          <line>26</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

@@ -1,14 +1,16 @@
 from fastapi import APIRouter, Depends
 
 from user.logIn_user import login_user_system
-from user.logIn_user.models import respounse_model
+from user.logIn_user.models import respounse_model as login_respounse_model
+from user.quit_user.crud import quit_user_system
+from user.quit_user.model import model_respounse as quit_user_respounse_model
 from user.register import registration_new_user_system
-from user.register.model.pd_respounse_model import failed_respounse_model
+from user.register.model.pd_respounse_model import failed_respounse_model as register_respounse_model
 
 autohorizen = APIRouter()
 
 
-@autohorizen.post("/register", response_model=failed_respounse_model, responses={
+@autohorizen.post("/register", response_model=register_respounse_model, responses={
   422: {
     "description": "Bad Request",
     "content": {
@@ -29,7 +31,7 @@ async def register(
 
 
 
-@autohorizen.post("/login", response_model=respounse_model, responses={
+@autohorizen.post("/login", response_model=login_respounse_model, responses={
   422: {
     "description": "Bad Request",
     "content": {
@@ -59,7 +61,7 @@ async def login_user(
   return result
 
 
-@autohorizen.post("/quit", response_model=respounse_model, responses={
+@autohorizen.post("/quit", response_model=quit_user_respounse_model, responses={
   422: {
     "description": "Bad Request",
     "content": {
@@ -67,17 +69,12 @@ async def login_user(
         "example": {"detail": "Сообщение ошибки"}
       }
     }
-  },
-  401: {
-    "description": "Bad Request",
-    "content": {
-      "application/json": {
-        "example": {"detail": "Ошибка авторизации"}
-      }
-    }
   }
 })
-async def login_user(
-        result: str = Depends(login_user_system)
+async def quit_user(
+        result: str = Depends(quit_user_system)
 ):
-    return result
+  """
+  Выход авторизованного устройства (НЕ ТОГО, С КОТОРОГО ПРОИЗВОДИТСЯ ВЫХОД)
+  """
+  return result

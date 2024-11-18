@@ -9,11 +9,11 @@ from user.register.model import model_new_user, failed_respounse_model
 
 async def registration_new_user_system(data_user: model_new_user) -> failed_respounse_model :
     if not await get_mail_user(data_user.email):
-        raise  HTTPException(status_code=400, detail="Эта почта уже занята")
+        raise  HTTPException(status_code=422, detail="Эта почта уже занята")
     get_user_id = calculate_md5(str({'username': {data_user.nickname}, 'datetime': {str(datetime.today())}, 'random_int': random.randint(1, 999999)}))
     get_password_user = calculate_md5(data_user.password)
     if not await insert_user(data_user, get_user_id, get_password_user):
-        raise HTTPException(status_code=400, detail="Возникла ошибка при регистрации, попробуйте еще раз")
+        raise HTTPException(status_code=422, detail="Возникла ошибка при регистрации, попробуйте еще раз")
     return failed_respounse_model(message="Аккаунт успешно создан")
 
 # if __name__ == '__main__':
