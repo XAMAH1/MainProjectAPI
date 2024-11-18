@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4274ec9-2911-4577-9d00-a314dbbb6b56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NoteProjectAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_access_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_access_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_autme_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_autme_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_device_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_device_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_recording_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_recording_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_role_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_role_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_subscription_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_subscription_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_tokens_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_tokens_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_type_record_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_type_record_model/type_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_user_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/db_user_model/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_model/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md5_hash/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md5_hash/md5_hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/crud/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/database/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_respounse_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_autme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/logIn_user/models/pd_user_device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/crud/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/database/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/model/pd_new_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/register/model/pd_respounse_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/view.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/user/logIn_user/crud/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2m9MLeuii3OYuhjQ8jXvw2o1Tpu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.md5_hash.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/.PET-PROJECT/MainProjectAPI/user/logIn_user/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\.PET-PROJECT\MainProjectAPI\user\logIn_user\models" />
+      <recent name="D:\.PET-PROJECT\MainProjectAPI\database" />
+      <recent name="D:\.PET-PROJECT\MainProjectAPI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\.PET-PROJECT\MainProjectAPI\user\register" />
+      <recent name="D:\.PET-PROJECT\NoteProjectAPI\database\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (4)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user/register/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user/register/crud/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user/register/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user/register/database/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user/logIn_user/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user/logIn_user/crud/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user/logIn_user/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user/logIn_user/database/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="NoteProjectAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (5)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4274ec9-2911-4577-9d00-a314dbbb6b56" name="Changes" comment="" />
+      <created>1726484283761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726484283761</updated>
+      <workItem from="1726484286519" duration="8632000" />
+      <workItem from="1727167402245" duration="12235000" />
+      <workItem from="1727241581494" duration="9463000" />
+      <workItem from="1727255502371" duration="7509000" />
+      <workItem from="1727332578133" duration="7740000" />
+      <workItem from="1727341745605" duration="6234000" />
+      <workItem from="1727426454920" duration="3522000" />
+      <workItem from="1727503294458" duration="2166000" />
+      <workItem from="1727726423396" duration="1191000" />
+      <workItem from="1727770943802" duration="586000" />
+      <workItem from="1727876097267" duration="43000" />
+      <workItem from="1728378844987" duration="9163000" />
+      <workItem from="1728631077386" duration="2741000" />
+      <workItem from="1728716165106" duration="1209000" />
+      <workItem from="1728725002998" duration="425000" />
+      <workItem from="1728895912168" duration="591000" />
+      <workItem from="1728994175879" duration="589000" />
+      <workItem from="1729276946361" duration="717000" />
+      <workItem from="1729409220090" duration="595000" />
+      <workItem from="1729770619483" duration="3925000" />
+      <workItem from="1729966987616" duration="595000" />
+      <workItem from="1730129747777" duration="1247000" />
+      <workItem from="1730486436004" duration="592000" />
+      <workItem from="1730799695589" duration="593000" />
+      <workItem from="1730952515667" duration="593000" />
+      <workItem from="1731128832084" duration="619000" />
+      <workItem from="1731410863001" duration="594000" />
+      <workItem from="1731588359780" duration="15235000" />
+      <workItem from="1731852301486" duration="11613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/logIn_user/database/main.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MainProjectAPI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1731872741982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/NoteProjectAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1726493173578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NoteProjectAPI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1727340443721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/MainProjectAPI$md5_hash.coverage" NAME="md5_hash Coverage Results" MODIFIED="1731593534551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/md5_hash" />
+    <SUITE FILE_PATH="coverage/MainProjectAPI$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1731874407287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user/logIn_user/database" />
+    <SUITE FILE_PATH="coverage/MainProjectAPI$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1731610213757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user/register/crud" />
+    <SUITE FILE_PATH="coverage/MainProjectAPI$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1731597770299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user/register/database" />
+    <SUITE FILE_PATH="coverage/MainProjectAPI$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1731874827363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user/logIn_user/crud" />
+  </component>
+</project>

@@ -1,0 +1,1 @@
+from .main import registration_new_user_system

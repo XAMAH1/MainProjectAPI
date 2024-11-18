@@ -1,0 +1,11 @@
+class accessModelDTO(BaseModel):
+    id: int
+    description: str
+    subscription_name: str
+
+
+
+result_dto: list[accessModelDTO] = [accessModelDTO.model_validate(row, from_attributes=True)
+                      for row in res]
+        for i in result_dto:
+            print(i.description)
