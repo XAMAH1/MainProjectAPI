@@ -17,8 +17,7 @@ async def login_user_system(data_user: model_autme) -> respounse_model:
         data_user.password
     )
     result = await select_user(
-        data_user,
-        hash_password
+        data_user
     )
     for current_user in result.scalars():
         if hash_password != current_user.password:

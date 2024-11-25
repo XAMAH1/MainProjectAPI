@@ -1,9 +1,11 @@
 from fastapi import APIRouter, Depends
 
+from user.get_all_token import get_all_user_token_system
 from user.logIn_user import login_user_system
 from user.logIn_user.models import respounse_model as login_respounse_model
 from user.quit_user.crud import quit_user_system
 from user.quit_user.model import model_respounse as quit_user_respounse_model
+from user.get_all_token.model import respounse_model as all_token_respounse_model
 from user.register import registration_new_user_system
 from user.register.model.pd_respounse_model import failed_respounse_model as register_respounse_model
 
@@ -76,5 +78,25 @@ async def quit_user(
 ):
   """
   Выход авторизованного устройства (НЕ ТОГО, С КОТОРОГО ПРОИЗВОДИТСЯ ВЫХОД)
+  """
+  return result
+
+
+
+@autohorizen.get("/token/all", response_model=all_token_respounse_model, responses={
+  422: {
+    "description": "Bad Request",
+    "content": {
+      "application/json": {
+        "example": {"detail": "Сообщение ошибки"}
+      }
+    }
+  }
+})
+async def all_token_user(
+        result: str = Depends(get_all_user_token_system)
+):
+  """
+  Получение всех авторизованных устройств
   """
   return result
