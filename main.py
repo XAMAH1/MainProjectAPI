@@ -3,7 +3,7 @@ import os
 import uvicorn
 from dotenv import load_dotenv
 from starlette.responses import HTMLResponse
-from user.view import autohorizen
+from user import autohorizen
 
 load_dotenv()
 
