@@ -12,8 +12,14 @@ async def select_token_user(
 
 async def select_all_token_user(
         user_id: str
-) -> list[TokenBaseModel]:
-    async with Session() as session:
-        query = select(TokenBaseModel).filter(TokenBaseModel.user_id == user_id)
-        result: list[TokenBaseModel] = await session.execute(query)
+):
+    async with (Session() as session):
+        query = (
+            select(TokenBaseModel, DeviceBaseModel)
+            .filter(TokenBaseModel.user_id == user_id)
+            .join(DeviceBaseModel, TokenBaseModel.device == DeviceBaseModel.id)
+            .limit(15)
+            .order_by(TokenBaseModel.id.desc())
+            )
+        result = await session.execute(query)
         return result

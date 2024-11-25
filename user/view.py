@@ -97,6 +97,6 @@ async def all_token_user(
         result: str = Depends(get_all_user_token_system)
 ):
   """
-  Получение всех авторизованных устройств
+  Получение всех авторизованных устройств. Выводятся только последние 50 устройств
   """
   return result
