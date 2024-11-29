@@ -1,0 +1,1 @@
+from .md5_hash import calculate_md5

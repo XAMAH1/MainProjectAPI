@@ -103,7 +103,7 @@ async def all_token_user(
   return result
 
 
-@autohorizen.get("/quit/account", response_model=register_respounse_model, responses={
+@autohorizen.post("/quit/account", response_model=register_respounse_model, responses={
   422: {
     "description": "Bad Request",
     "content": {
