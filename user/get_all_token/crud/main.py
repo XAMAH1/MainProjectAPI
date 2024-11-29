@@ -1,6 +1,5 @@
 import json
 
-import jwt
 from fastapi.params import Depends
 
 from auth import auth
@@ -15,7 +14,10 @@ async def get_all_user_token_system(
 ) -> respounse_model:
     redis_result = await get_redis(token)
     if redis_result:
-        return json.loads(redis_result)
+        try:
+            return json.loads(redis_result)
+        except:
+            ...
     result: list[TokenBaseModel] = await select_token_user(token)
     for current_token in result.scalars():
         result_all  = await select_all_token_user(current_token.user_id)

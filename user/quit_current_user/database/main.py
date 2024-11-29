@@ -6,6 +6,7 @@ from sqlalchemy import delete
 from auth import auth
 from database.main import *
 from user.quit_current_user.model import model_token, model_respounse
+from user.quit_current_user.redis import delete_redis
 
 
 async def delete_token(
@@ -25,5 +26,6 @@ async def delete_token(
             query = delete(DeviceBaseModel).where(DeviceBaseModel.id == current_user.device)
             await session.execute(query)
             await session.commit()
+            await delete_redis(token)
             return model_respounse(message="Вы успешно вышли с аккаунта")
         raise HTTPException(status_code=422, detail="Возникла ошибка при выходе из аккаунта, похоже ваш токен не действителен")
