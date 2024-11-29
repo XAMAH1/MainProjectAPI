@@ -1,1 +1,1 @@
-from .main import delete_token
+from .main import delete_current_token

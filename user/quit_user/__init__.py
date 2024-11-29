@@ -1,0 +1,1 @@
+from .crud import quit_user as quit_current_user

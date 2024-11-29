@@ -1,10 +1,11 @@
 from fastapi import APIRouter, Depends
 
+from user.quit_user import quit_current_user
 from user.get_all_token import get_all_user_token_system
 from user.logIn_user import login_user_system
 from user.logIn_user.models import respounse_model as login_respounse_model
-from user.quit_user.crud import quit_user_system
-from user.quit_user.model import model_respounse as quit_user_respounse_model
+from user.quit_current_user import quit_user_system
+from user.quit_current_user.model import model_respounse as quit_user_respounse_model
 from user.get_all_token.model import respounse_model as all_token_respounse_model
 from user.register import registration_new_user_system
 from user.register.model.pd_respounse_model import failed_respounse_model as register_respounse_model
@@ -98,5 +99,24 @@ async def all_token_user(
 ):
   """
   Получение всех авторизованных устройств. Выводятся только последние 50 устройств
+  """
+  return result
+
+
+@autohorizen.get("/quit/account", response_model=register_respounse_model, responses={
+  422: {
+    "description": "Bad Request",
+    "content": {
+      "application/json": {
+        "example": {"detail": "Сообщение ошибки"}
+      }
+    }
+  }
+})
+async def quit_user_account(
+          result: str = Depends(quit_current_user)
+):
+  """
+  Выход из авторизованного устройства
   """
   return result

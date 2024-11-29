@@ -1,8 +1,10 @@
-from fastapi import Depends
+from fastapi.params import Depends
 
-from user.quit_user.database import delete_token
-from user.quit_user.model import model_respounse
+from auth import auth
+from user.quit_user.database import delete_current_token
 
 
-async def quit_user_system(result: model_respounse = Depends(delete_token)) -> model_respounse:
-    return result
+async def quit_user(
+        token: str = Depends(auth)
+):
+    return await delete_current_token(token)
